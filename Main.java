@@ -26,5 +26,7 @@ public class Main {
         // currentBalance = bank1.GetBalance();
         // System.out.println(currentBalance);
         // bank1.Balance = 1000000000;
+
+        System.out.println(Bank.ConvertUSDToAUD(0));
     }
 }

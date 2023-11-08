@@ -5,6 +5,7 @@
  enum AccountTypeEnum { SAVINGS, CHECKING }
 
 public class Bank {
+    final String RoutingNumber = "wejwe334902eoreo"; //final field cannt be changed
     // this balance will track the overall balance stored at the bank
     private static double BankBalance;
     private double Balance;
@@ -59,4 +60,13 @@ public class Bank {
         //System.out.println(zeroBalance);
         return rtnBalance;
     }
-}
+
+    public static double ConvertUSDToAUD(double usd){
+        return usd * 1.56;
+    }
+
+    try{
+        if a
+    }
+        
+    }
